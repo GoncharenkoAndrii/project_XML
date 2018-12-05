@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Cutlery">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cutlery" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:string"></xs:element>
+                            <xs:element name="type">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="SPOON"/>
+                                        <xs:enumeration value="KNIFE"/>
+                                        <xs:enumeration value="FORK"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="origin">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="USA"/>
+                                        <xs:enumeration value="BRA"/>
+                                        <xs:enumeration value="GER"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="visual">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="length" type="xs:int"></xs:element>
+                                        <xs:element name="material">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="STEEL"/>
+                                                    <xs:enumeration value="SILVER"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

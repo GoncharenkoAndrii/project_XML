@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Cutlery>
+<Id Id="0">
+<type> some type </type>
+<origin> some origin </origin>
+<visual>
+<lenght> some lenght </lenght>
+<material> some material </material>
+</visual>
+</Id>
+</Cutlery>

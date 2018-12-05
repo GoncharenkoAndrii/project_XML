@@ -1,0 +1,1 @@
+22:20:26.454 [main] ERROR XMLtask.Builder.BeerStaxBuiler - File beer.xmlnot found java.io.FileNotFoundException: beer.xml (The system cannot find the file specified)

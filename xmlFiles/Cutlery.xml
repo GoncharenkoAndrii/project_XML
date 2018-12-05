@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cutlery>
+    <cutlery id="ID:1">
+        <type>KNIFE</type>
+
+        <origin>BRA</origin>
+        <visual>
+            <length>20</length>
+            <material>STEEL</material>
+        </visual>
+    </cutlery>
+
+    <cutlery id="ID:2">
+        <type>FORK</type>
+
+        <origin>GER</origin>
+        <visual>
+            <length>10</length>
+            <material>SILVER</material>
+        </visual>
+    </cutlery>
+
+    <cutlery id="ID:3">
+        <type>SPOON</type>
+
+        <origin>USA</origin>
+        <visual>
+            <length>555</length>
+            <material>SILVER</material>
+        </visual>
+    </cutlery>
+
+    <cutlery id="ID:4">
+        <type>SPOON</type>
+
+        <origin>USA</origin>
+        <visual>
+            <length>130</length>
+            <material>STEEL</material>
+        </visual>
+    </cutlery>
+</Cutlery>
